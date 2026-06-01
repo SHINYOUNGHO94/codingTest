@@ -1,0 +1,17 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "test": "vitest run exercises",
+    "test:watch": "vitest exercises",
+    "test:hidden": "vitest run .authoring/hidden-tests"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
