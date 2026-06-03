@@ -49,6 +49,8 @@ Codex는 문제를 직접 출제하는 주 담당자가 아니다. Claude Code�
 - 오답 기록을 바탕으로 다음 학습 주제 제안
 
 풀스택 문제를 검토할 때는 `docs/fullstack-tasktree-baseline.md`도 읽는다.
+문제 생성과 학습 운영을 이어받을 때는 `docs/training-workflow.md`, `docs/problem-roadmap.md`,
+`docs/claude-problem-authoring.md`를 함께 읽는다.
 
 ### 사용자
 

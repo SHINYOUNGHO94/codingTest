@@ -5,6 +5,10 @@
 
 처음 문제를 풀 때는 `START-HERE.md`부터 읽는다.
 
+AI가 다른 PC나 다른 세션에서 이어받을 때는 `docs/training-workflow.md`를 먼저 읽고,
+전체 문제 방향은 `docs/problem-roadmap.md`를 기준으로 한다. Claude Code가 문제를
+만들 때는 `docs/claude-problem-authoring.md`를 따른다.
+
 ## 사용 언어
 
 - TypeScript
@@ -33,6 +37,9 @@ codingTest/
   GPT.md
   README.md
   docs/
+    training-workflow.md
+    problem-roadmap.md
+    claude-problem-authoring.md
     study-plan.md
     progress.md
     mistakes.md
@@ -70,8 +77,8 @@ codingTest/
 {language}/{role}/day-NN/NN-slug/
 ```
 
-첫날 문제는 아직 만들지 않았다. Claude Code에게 문제 생성을 지시하기 전에
-`docs/study-plan.md`와 폴더 구조를 먼저 검토한다.
+Day 1 문제는 생성되어 있다. 다음 문제를 만들 때는 `docs/training-workflow.md`와
+`docs/problem-roadmap.md`를 먼저 확인한다.
 
 풀스택 트랙은 TaskTree 포트폴리오의 기술과 리뷰 관점을 일반화하여 활용한다.
 세부 기준은 `docs/fullstack-tasktree-baseline.md`에 정리되어 있다.

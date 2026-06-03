@@ -9,7 +9,8 @@ Codex가 독립적으로 검토할 수 있도록 출제 의도와 검증 결과�
 
 ## 문제 출제 절차
 
-1. `AGENTS.md`, `docs/study-plan.md`, `docs/progress.md`,
+1. `AGENTS.md`, `docs/training-workflow.md`, `docs/problem-roadmap.md`,
+   `docs/claude-problem-authoring.md`, `docs/study-plan.md`, `docs/progress.md`,
    `docs/mistakes.md`를 읽는다.
 2. 사용할 언어와 목표 직무를 확인한다.
 3. 풀스택 트랙이면 `docs/fullstack-tasktree-baseline.md`도 읽는다.

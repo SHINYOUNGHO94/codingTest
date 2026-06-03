@@ -1,4 +1,6 @@
-export type Status = 'todo' | 'in_progress' | 'done';
+import { g } from "vitest/dist/suite-dWqIFb_-.js";
+
+export type Status = "todo" | "in_progress" | "done";
 
 export interface Item {
   id: string;
@@ -13,6 +15,20 @@ export interface GroupedItems {
 }
 
 export function groupByStatus(items: Item[]): GroupedItems {
-  // TODO: 구현하세요
-  throw new Error('Not implemented');
+  const groupedItem: GroupedItems = {
+    todo: [],
+    in_progress: [],
+    done: [],
+  };
+
+  const setItem = new Set<string>();
+  for (const item of items) {
+    if (setItem.has(item.id)) {
+      continue;
+    }
+    setItem.add(item.id);
+    groupedItem[item.status].push(item);
+  }
+
+  return groupedItem;
 }
